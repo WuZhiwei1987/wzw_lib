@@ -1,2 +1,2 @@
 # wzw_lib
-C-like language  are all my love!
+C-like languages  are all my love!
