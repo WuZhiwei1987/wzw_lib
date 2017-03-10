@@ -1,2 +1,2 @@
 # wzw_lib
-a programmer of Chinese and learning  by myself!
+a programmer learning  by myself !
