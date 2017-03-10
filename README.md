@@ -1,2 +1,2 @@
 # wzw_lib
-C-like languages  are all my love!
+a programmer of Chinese and learning  by myself!
