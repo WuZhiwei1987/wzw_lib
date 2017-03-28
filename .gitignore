@@ -4,7 +4,7 @@
 .mtj.tmp/
 
 # Package Files
-# #include <stdio.h>
+#include <stdio.h>
 *.jar
 *.war
 *.ear
