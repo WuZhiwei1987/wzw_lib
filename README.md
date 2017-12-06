@@ -1,2 +1,3 @@
-# wzw_lib
-a programmer learning  by myself !
+#About Me!
+programmer beginner! 
+thanks everyone help me improve the programming skills !
