@@ -1,0 +1,29 @@
+"引用":
+1.必须绑定一个初始化对象.
+例子: int i = 3;
+      int &ri = i;
+      int &ri = 3;   //error 引用必须是个对象
+
+2.普通类型"引用"可以接受const的对象,反之不行.
+例子: int i = 1;
+	 int &r1 = i;
+	 const int &r2 = i;  //设置同一对象
+   r1 = r2;   // ok
+   r2 = r1;   //error 无法给r2赋值
+   
+3.指针与上述相反.普通指针类型不可以指向const类型,而const的指针在同底层时候可以,类型能转化的时候也可以
+例子:
+ 	int  i = 1024;
+	int *p = &i;
+	const int ci = 42;
+	const int *p1 = &ci;
+	
+	p = p1;
+	std::cout << *p << '\n' << *p1 << std::endl;   //error
+  
+ p1 = p;
+ std::cout << *p << '\n' << *p1 << std::endl;   //OK *P1=1024被改写了 
+ 
+ p是普通指针,p1是个指向常量的指针,p可以指向任意对象的值,但p1只能指向1个常量,所以不可以.
+ 可p1 可以指向p的一个对象值,通过修改P可以改变P1.
+    
